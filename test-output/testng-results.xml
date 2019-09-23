@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[waiting for page to load......]]>
+    </line>
+    <line>
+      <![CDATA[Page is loaded]]>
+    </line>
+    <line>
+      <![CDATA[Entering Username in the Username Textbox]]>
+    </line>
+    <line>
+      <![CDATA[Entering Password in the Password Textbox]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Login button]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for 30 seconds]]>
+    </line>
+    <line>
+      <![CDATA[waiting for page to load......]]>
+    </line>
+    <line>
+      <![CDATA[Page is loaded]]>
+    </line>
+    <line>
+      <![CDATA[Entering Username in the Username Textbox]]>
+    </line>
+    <line>
+      <![CDATA[Entering Password in the Password Textbox]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Login button]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for 30 seconds]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="81932" started-at="2017-02-12T11:37:02Z" finished-at="2017-02-12T11:38:24Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="81932" started-at="2017-02-12T11:37:02Z" finished-at="2017-02-12T11:38:24Z">
+      <class name="com.actiTime.testScripts.login.TestLogin">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.actiTime.testScripts.login.TestLogin@ae45eb6]" name="setUp" is-config="true" duration-ms="9815" started-at="2017-02-12T17:07:02Z" finished-at="2017-02-12T17:07:12Z">
+          <reporter-output>
+            <line>
+              <![CDATA[waiting for page to load......]]>
+            </line>
+            <line>
+              <![CDATA[Page is loaded]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String)[pri:0, instance:com.actiTime.testScripts.login.TestLogin@ae45eb6]" name="testLogin" duration-ms="30388" started-at="2017-02-12T17:07:12Z" data-provider="actiTime" finished-at="2017-02-12T17:07:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Entering Username in the Username Textbox]]>
+            </line>
+            <line>
+              <![CDATA[Entering Password in the Password Textbox]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Login button]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for 30 seconds]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testDown()[pri:0, instance:com.actiTime.testScripts.login.TestLogin@ae45eb6]" name="testDown" is-config="true" duration-ms="1431" started-at="2017-02-12T17:07:43Z" finished-at="2017-02-12T17:07:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.actiTime.testScripts.login.TestLogin@ae45eb6]" name="setUp" is-config="true" duration-ms="8278" started-at="2017-02-12T17:07:44Z" finished-at="2017-02-12T17:07:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[waiting for page to load......]]>
+            </line>
+            <line>
+              <![CDATA[Page is loaded]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String)[pri:0, instance:com.actiTime.testScripts.login.TestLogin@ae45eb6]" name="testLogin" duration-ms="30349" started-at="2017-02-12T17:07:52Z" data-provider="actiTime" finished-at="2017-02-12T17:08:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Entering Username in the Username Textbox]]>
+            </line>
+            <line>
+              <![CDATA[Entering Password in the Password Textbox]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Login button]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for 30 seconds]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testDown()[pri:0, instance:com.actiTime.testScripts.login.TestLogin@ae45eb6]" name="testDown" is-config="true" duration-ms="890" started-at="2017-02-12T17:08:23Z" finished-at="2017-02-12T17:08:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDown -->
+      </class> <!-- com.actiTime.testScripts.login.TestLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
